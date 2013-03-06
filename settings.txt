@@ -1,0 +1,4 @@
+name=settings
+phone=apple
+cup=shakespeares
+drink=coke

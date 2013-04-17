@@ -1,6 +1,8 @@
 
 public class MainClass {
 
+	String difficulty = "Adding is hard.";	
+
 	public static int add(int a, int b){
 		return a + b; 
 	}
@@ -9,12 +11,12 @@ public class MainClass {
 		return a * b; 
 	}
 	
-	public static void main(String[] args){
-		System.out.println(add(3,2));
-		System.out.println(multiply(3,2));
+
+	public static sendMessage(String message){
+		System.out.println(message);
 	}
 
-	public static sendMessage(){
-		System.out.println("This is an important message.");
+	public static void main (String [] args){
+		sendMessage(difficulty);
 	}
 }

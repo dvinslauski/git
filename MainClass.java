@@ -19,7 +19,17 @@ public class MainClass {
 		System.out.println(pow(3,2));
 	}
 
-	public static sendMessage(){
+	public static void sendMessage(){
 		System.out.println("This is an important message.");
+	}
+	
+	public static void receiveMessage(){
+		System.out.println("Receiving.......");
+		try {
+			Thread.sleep(1000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+		System.out.println("Received!!!");
 	}
 }

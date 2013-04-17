@@ -18,4 +18,8 @@ public class MainClass {
 		System.out.println(multiply(3,2));
 		System.out.println(pow(3,2));
 	}
+
+	public static sendMessage(){
+		System.out.println("This is an important message.");
+	}
 }

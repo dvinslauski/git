@@ -11,9 +11,11 @@ public class MainClass {
 		return a * b; 
 	}
 	
-
 	public static sendMessage(String message){
 		System.out.println(message);
+	}
+	public static int pow(int a, int b){
+		return (int) Math.pow(a, b); 
 	}
 
 	public static void main (String [] args){
